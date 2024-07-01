@@ -37,6 +37,7 @@ function convert()
     }
     result = result.split('').reverse().join('');
     output.innerHTML = result;
+    inputText.value = "";
 }
 
 function keyPress(event)
